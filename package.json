@@ -4,7 +4,7 @@
   "description": "JWT based authentication using Node.js, Express(Server) and MongoDB[Creating restAPIs]",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -19,8 +19,7 @@
     "token",
     "based",
     "auth",
-    "Basic",
-    "auth",
+    "Basic auth",
     "RestApi"
   ],
   "author": "Davinder Singh",
@@ -28,5 +27,10 @@
   "bugs": {
     "url": "https://github.com/dave626429/RestAPI-Basic-auth-Nodejs-Express-MongoDB-JWT-/issues"
   },
-  "homepage": "https://github.com/dave626429/RestAPI-Basic-auth-Nodejs-Express-MongoDB-JWT-#readme"
+  "homepage": "https://github.com/dave626429/RestAPI-Basic-auth-Nodejs-Express-MongoDB-JWT-#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.10.0"
+  }
 }
